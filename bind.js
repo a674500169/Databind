@@ -91,14 +91,3 @@ CompileTmp.prototype = {
      })
   }
 }
-var sData = {
-      data:{
-        text:"哈哈",
-        tt:["hello","world"],
-        ss:[{yy:"dayday"},"up"]
-      }
-  }
-var app = new CompileTmp({
-  ele:"my-app",
-  data:sData
-});
